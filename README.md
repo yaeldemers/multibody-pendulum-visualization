@@ -1,1 +1,0 @@
-# manybody-pendulum-visualization
