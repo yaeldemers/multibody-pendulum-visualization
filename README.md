@@ -3,7 +3,7 @@ This project was made in the context of the 2021 Physics Hackathon held by McGil
 You can see [our submition here](https://devpost.com/software/multibody-pendulum-visualization-tool).
 
 # Features
-- Allows user to visualize a real-time simulation of multibody pendulum while modifying the factors influencing its behaviors.
+- Allows user to visualize a real-time simulation of a multibody pendulum while modifying the factors influencing its behaviors.
 - Lets instructor demo the behavior of certain systems while showcasing the chaotic nature of multibody pendulums via the path-plot as well as the phase-space plot.
 
 # Usage
