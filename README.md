@@ -10,10 +10,8 @@ You can see [our submition here](https://devpost.com/software/multibody-pendulum
 Visit [this website](https://yaeldemers.com/multibody-pendulum-visualization/index.html) and start playing with the pendulums. As this project will progress, more simulations should become available for general use.
 
 # Examples of visualization
-
-![Simple pendulum undamped simulation which ran for a long time with varying lengths of rod](/images/wild-simple-pendulum-simulation.png)
-![Double pendulum undamped simulation which ran for a long time while displaying the space-phase plot of theta-1 vs.theta-2](/images/double-pendulum-with-phase-space.png)
-
+![Double pendulum undamped simulation which ran for a long time while displaying the space-phase plot of theta-1 vs.theta-2](/images/double-pendulum-with-phase-space.PNG)
+Double pendulum simulation with undamped motion - it ran for a long time while displaying the space-phase plot of theta-1 versus theta-2
 # Team
 | Y. Demers | R. Youm |
 | :---:     | :-:         | 
