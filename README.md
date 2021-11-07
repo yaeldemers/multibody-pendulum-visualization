@@ -1,18 +1,29 @@
-### Please refer to the Devpost of our project. 
-##### This read-me file will be updated in a short future. Thank you!
+![](/images/MPVT.png)
+This project was made in the context of the 2021 Physics Hackathon held by McGill University. 
+You can see [our submition here](https://devpost.com/software/multibody-pendulum-visualization-tool).
 
-Devpost: https://devpost.com/software/multibody-pendulum-visualization-tool?ref_content=user-portfolio&ref_feature=in_progress
+# Features
+- Allows user to visualize a real-time simulation of multibody pendulum while modifying the factors influencing its behaviors.
+- Lets instructor demo the behavior of certain systems while showcasing the chaotic nature of multibody pendulums via the path-plot as well as the phase-space plot.
 
-Web App: https://yaeldemers.com/multibody-pendulum-visualizat
+# Usage
+Visit [this website](https://yaeldemers.com/multibody-pendulum-visualization/index.html) and start playing with the pendulums. As this project will progress, more simulations should become available for general use.
 
-Credits:
+# Examples of visualization
 
-	Theme: 
-		Massively | html5up.net | @ajlkn
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
-		Double pendulum with Processing (https://www.youtube.com/watch?v=uWzPe_S-RVE&ab_channel=TheCodingTrain)
-		Triple Pendulum Chaos (https://jakevdp.github.io/blog/2017/03/08/triple-pendulum-chaos/)
-		Hackathon Mentors (Mr. Simon Guichandut)
+![Simple pendulum undamped simulation which ran for a long time with varying lengths of rod](/images/wild-simple-pendulum-simulation.png)
+![Double pendulum undamped simulation which ran for a long time while displaying the space-phase plot of theta-1 vs.theta-2](/images/double-pendulum-with-phase-space.png)
+
+# Team
+| Y. Demers | R. Youm |
+| :---:     | :-:         | 
+| https://github.com/yaeldemers | N/A | 
+
+## Credits
+This project was inspired by the work of many people and probably could not have reach this step of completion without their help.
+- Our website's theme : Massively | html5up.net | @ajlkn
+- The basics of double pendulum motion : [Double pendulum with Processing](https://www.youtube.com/watch?v=uWzPe_S-RVE&ab_channel=TheCodingTrain)
+- Understanding the triple pendulum : [Triple Pendulum Chaos](https://jakevdp.github.io/blog/2017/03/08/triple-pendulum-chaos/)
+- Equations of motion for pendulum with n bobs : [Equations of Motion for Multiple-Pendula System](https://www.cibtech.org/J-PHYSICS-MATHEMATICAL-SCIENCES/PUBLICATIONS/2012/Vol%202%20No.%202/16%20JPMS%2019%20Thomas%20Sakwa...PENDULA%20SYSTEM.pdf)
+- Phase-space plots, wrapping floats around intervals and understanding real-time time-steps : Simon Guichandut (PhD Student and Hackathon Mentor)
+
