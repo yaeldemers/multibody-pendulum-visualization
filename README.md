@@ -1,6 +1,9 @@
 ### Please refer to the Devpost of our project. 
 ##### This read-me file will be updated in a short future. Thank you!
 
+Devpost: https://devpost.com/software/multibody-pendulum-visualization-tool?ref_content=user-portfolio&ref_feature=in_progress
+Web App: https://yaeldemers.com/multibody-pendulum-visualizat
+
 Credits:
 
 	Theme: 
