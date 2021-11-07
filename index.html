@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Multibody Pendulum</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Multibody Pendulum Visualization</a>
+						<i style="padding-top:25px;">A multibody pendulum visualization tool built in the context of McGill University's 2021 Physics Hackathon</i>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">What is this about</a></li>
+							<li><a href="simple-pendulum.html">Simple Pendulum</a></li>
+							<li><a href="double-pendulum.html">Double Pendulum</a></li>
+							<li><a href="triple-pendulum.html">Triple Pendulum</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+							<article class="post featured">
+								<header>
+									<h2>What is this project</h2>
+									<p>In the context of this year's Physics Hackathon, we decided to work on a visualization tool for pendulum motion. As we researched the topic, we realized most simulator focused on single and double pendulums, but we wondered what would happen as you increase the amount of bobs in the system? How chaotic could this get?</p>
+								</header>
+								<a class="image fit"><img src="images/MPVT.png" alt="Multibody Pendulum Visualization Tool - Logo" /></a>
+							</article>
+
+							<article class="post featured">
+								<header>
+									<h2>How we built it</h2>
+									<p>As we wanted this tool to be interactive, we thought it would be a great idea to make this in JavaScrypt. This way, anyone could try it and have its own spin on it. We used the p5.js framework to draw the systems and hosted them on HTML5 pages. The tricky part was getting the equations of motion right. For a simple pendulum, classical mechanics equations are sufficient, however we had to turn to Lagrangian mechanics and many papers to figure out the motion of multibody pendulums. Note, to show the chaos induced by multibody pendulums, we plotted the position of the bottom bob over time.</p>
+								</header>
+							</article>
+
+							<article class="post featured">
+								<header>
+									<h2>What's next</h2>
+									<p>As we approached an increasing amount of pendulum's bobs, we realized a generalization formula might be necessary to qualify the equations of motion (EOM) of said bobs. Each mass added to the system significantly complexifies the EOMs and hence make the code tedious to write, and read. Once a generalization formula is found, it will be easy to visualize how the system behaves as the number of bobs gets bigger. An other option could be to use an other language / framework to calculate said EOMs (for example Python and Sympy or Matlab). As we introduced in our double pendulum system, phase-space diagrams could also be an interesting approach to this topic as it touches some concepts of chaos theory.</p>
+								</header>
+							</article>
+
+							<article class="post featured">
+								<header>
+									<h2>Try it out</h2>
+									<a href="simple-pendulum.html" class="button primary">Simple Pendulum</a>
+									<a href="double-pendulum.html" class="button primary">Double Pendulum</a>
+									<a href="triple-pendulum.html" class="button primary">Tripple Pendulum</a>
+									<a href="https://github.com/yaeldemers/multibody-pendulum-visualization" class="button primary">Source Code</a>
+								</header>
+							</article>
+				
+					</div>
+				<!-- Copyright -->
+				<div id="copyright">
+					<a href="https://github.com/yaeldemers/manybody-pendulum-visualization/tree/main">Check out our GitHub to learn more</a>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

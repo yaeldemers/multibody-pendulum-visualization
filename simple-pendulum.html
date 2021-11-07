@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Multibody Pendulum</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<header id="header">
+					<a href="index.html" class="logo">Multibody Pendulum Visualization</a>
+					<i style="padding-top:25px;">A multibody pendulum visualization tool built in the context of McGill University's 2021 Physics Hackathon</i>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">What is this about</a></li>
+							<li class="active"><a href="simple-pendulum.html">Simple Pendulum</a></li>
+							<li><a href="double-pendulum.html">Double Pendulum</a></li>
+							<li><a href="triple-pendulum.html">Triple Pendulum</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+						<section class="post featured">
+							<h2>Simple Pendulum</h2>
+								<h3 style="text-align:center;"><iframe src="https://preview.p5js.org/yaeldemers/embed/L5jZtgVcN"style="width: 900px; height: 600px; overflow: hidden;"  scrolling="no" frameborder="0"></iframe></h3>
+								<p>This is a simple pendulum motion simulator, as expected, the arc of the bob follows the radius of a circle of Lenght 1 (slider). As we increase dampening, drag would be applied and the pendulum would eventually come to rest. As one plays with the sliders, an interesting event can occur ; by quickly setting the lenght of the pendulum's rod to the lowest side of the slider and then bringing it up, the motion becomes complete around the origin (and stays this way since the drag is set to zero when the app launches). We believe this is due to the angular momentum increasing as we reduce the lenght of the rod.</p>
+							</section>
+
+					</div>
+
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<a href="https://github.com/yaeldemers/manybody-pendulum-visualization/tree/main">Check out our GitHub to learn more</a>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
