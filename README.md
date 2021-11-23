@@ -18,7 +18,7 @@ Double pendulum simulation with undamped motion - it ran for a long time while d
 | https://github.com/yaeldemers | N/A | 
 
 ## Credits
-This project was inspired by the work of many people and probably could not have reach this step of completion without their help.
+This project was inspired by the work of many people and probably could not have reach this level of completion without their help.
 - Our website's theme : Massively | html5up.net | @ajlkn
 - The basics of double pendulum motion : [Double pendulum with Processing](https://www.youtube.com/watch?v=uWzPe_S-RVE&ab_channel=TheCodingTrain)
 - Understanding the triple pendulum : [Triple Pendulum Chaos](https://jakevdp.github.io/blog/2017/03/08/triple-pendulum-chaos/)
