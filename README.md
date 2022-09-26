@@ -23,5 +23,5 @@ This project was inspired by the work of many people and probably could not have
 - The basics of double pendulum motion : [Double pendulum with Processing](https://www.youtube.com/watch?v=uWzPe_S-RVE&ab_channel=TheCodingTrain)
 - Understanding the triple pendulum : [Triple Pendulum Chaos](https://jakevdp.github.io/blog/2017/03/08/triple-pendulum-chaos/)
 - Equations of motion for pendulum with n bobs : [Equations of Motion for Multiple-Pendula System](https://www.cibtech.org/J-PHYSICS-MATHEMATICAL-SCIENCES/PUBLICATIONS/2012/Vol%202%20No.%202/16%20JPMS%2019%20Thomas%20Sakwa...PENDULA%20SYSTEM.pdf)
-- Phase-space plots, wrapping floats around intervals and understanding real-time time-steps : Simon Guichandut (PhD Student and Hackathon Mentor)
+- Phase-space plots, wrapping floats around intervals and understanding real-time time-steps : Simon Guichandut (PhD Candidate and Hackathon Mentor)
 
