@@ -25,3 +25,7 @@ This project was inspired by the work of many people and probably could not have
 - Equations of motion for pendulum with n bobs : [Equations of Motion for Multiple-Pendula System](https://www.cibtech.org/J-PHYSICS-MATHEMATICAL-SCIENCES/PUBLICATIONS/2012/Vol%202%20No.%202/16%20JPMS%2019%20Thomas%20Sakwa...PENDULA%20SYSTEM.pdf)
 - Phase-space plots, wrapping floats around intervals and understanding real-time time-steps : Simon Guichandut (PhD Candidate and Hackathon Mentor)
 
+## TODO
+- Fix phase plot's jumping behaviors (2-body pendulum)
+- Fix faulty equations of motion (3-body pendulum)
+- Fix website design
