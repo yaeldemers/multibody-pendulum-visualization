@@ -15,7 +15,7 @@ Double pendulum simulation with undamped motion - it ran for a long time while d
 # Team
 | Y. Demers | R. Youm |
 | :---:     | :-:         | 
-| https://github.com/yaeldemers | N/A | 
+| https://github.com/yaeldemers | https://github.com/RickyYoum | 
 
 ## Credits
 This project was inspired by the work of many people and probably could not have reach this level of completion without their help.
